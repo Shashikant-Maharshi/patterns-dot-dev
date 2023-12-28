@@ -1,0 +1,24 @@
+{
+  "name": "patterns-dot-dev",
+  "version": "1.0.0",
+  "description": "Practicing Patterns Dev",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shashikant-Maharshi/patterns-dot-dev.git"
+  },
+  "keywords": [
+    "vanilla-pattern",
+    "react-pattern"
+  ],
+  "author": "Shashikant Maharshi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shashikant-Maharshi/patterns-dot-dev/issues"
+  },
+  "homepage": "https://github.com/Shashikant-Maharshi/patterns-dot-dev#readme"
+}
