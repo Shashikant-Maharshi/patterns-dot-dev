@@ -1,0 +1,5 @@
+# Bundle Splitting
+JavaScript engines such as V8 are able to _parse_ and _compile_ data that’s been requested by the user as it’s being loaded.
+We want to display data to the user as quickly as possible. A larger bundle leads to an increased amount of loading time, processing time, and execution time. It would be great if we could reduce the size of this bundle, in order to speed things up.
+By reducing the loading and execution time, we can reduce the time it takes before the first content has been painted on the user’s screen, the **First Contentful Paint**, and the time it takes before the largest component has been rendered to the screen, the **Largest Contentful Paint**.
+Although being able to see data on our screen is great, we don’t just want to see the content. In order to have a fully functioning application, we want users to be able to interact with it as well! The UI only becomes interactive after the bundle has been loaded and executed. The time it takes before all content has been painted to the screen and has been made interactive, is called the **Time To Interactive**.
